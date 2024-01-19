@@ -12,8 +12,8 @@ function App() {
     setNumClicks(nroClicks+1)
     console.log(1)
   }
-  const clickMas3 = () =>{
-    setNumClicks(nroClicks+3)
+  const clickMas5 = () =>{
+    setNumClicks(nroClicks+5)
     console.log(1)
   }
   const clickMenos3 = () =>{
@@ -39,7 +39,7 @@ function App() {
           <div className='contenedorNumeros'>
             <Boton texto="+1" esBotonClick={true} funcionClick={clickMas1}/>
             <Boton texto="-3" esBotonClick={true} funcionClick={clickMenos3}/>
-            <Boton texto="+3" esBotonClick={true} funcionClick={clickMas3}/>
+            <Boton texto="+3" esBotonClick={true} funcionClick={clickMas5}/>
             <Boton texto="-1" esBotonClick={true} funcionClick={clickMenos1}/>
           </div>
           <div className='contenedorBoton'>
